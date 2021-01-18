@@ -75,7 +75,7 @@
                     <align>center</align>
                     <aligny>center</aligny>
                     <visible>String.IsEmpty(Window().Property(item.info.season))</visible>
-                    <label>$ADDON[plugin.video.seren 40230]: [COLOR $INFO[Window().Property(settings.color)]]$INFO[Window().Property(item.info.year)] [/COLOR] | $ADDON[plugin.video.seren 40231]: [COLOR $INFO[Window().Property(settings.color)]]$INFO[Window().Property(item.info.rating)][/COLOR]
+                    <label>Year: [COLOR $INFO[Window().Property(settings.color)]]$INFO[Window().Property(item.info.year)] [/COLOR] | $ADDON[plugin.video.seren 40231]: [COLOR $INFO[Window().Property(settings.color)]]$INFO[Window().Property(item.info.rating)][/COLOR]
                     </label>
                 </control>
                 <control type="label">
@@ -86,7 +86,7 @@
                     <align>center</align>
                     <aligny>center</aligny>
                     <visible>!String.IsEmpty(Window().Property(item.info.season))</visible>
-                    <label>$ADDON[plugin.video.seren 40232]: [COLOR $INFO[Window().Property(settings.color)]]$INFO[Window().Property(item.info.aired)] [/COLOR]</label>
+                    <label>Aired: [COLOR $INFO[Window().Property(settings.color)]]$INFO[Window().Property(item.info.aired)] [/COLOR]</label>
                 </control>
 
                 <control type="label">
